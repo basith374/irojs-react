@@ -7,6 +7,7 @@
   "repository": "basith374/irojs-react",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
+  "keywords": ["react", "color picker", "react-component", "colorpicker"],
   "source": "src/index.js",
   "engines": {
     "node": ">=10"
