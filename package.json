@@ -1,7 +1,7 @@
 {
   "name": "irojs-react",
   "version": "1.0.0",
-  "description": "Made with create-react-library",
+  "description": "A react component wrapper for iro.js",
   "author": "basith374",
   "license": "MIT",
   "repository": "basith374/irojs-react",
