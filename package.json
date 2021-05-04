@@ -1,10 +1,10 @@
 {
-  "name": "package",
+  "name": "irojs-react",
   "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "basith374",
   "license": "MIT",
-  "repository": "basith374/package",
+  "repository": "basith374/irojs-react",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -49,5 +49,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "@jaames/iro": "^5.5.1"
+  }
 }
