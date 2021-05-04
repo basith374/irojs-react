@@ -2,7 +2,7 @@
 
 > The iro.js color picker wrapped in a react component
 
-[![NPM](https://img.shields.io/npm/v/package.svg)](https://www.npmjs.com/package/package) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/irojs-react.svg)](https://www.npmjs.com/package/irojs-react) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![build](https://github.com/basith374/irojs-react/actions/workflows/main.yml/badge.svg)](https://github.com/basith374/irojs-react/actions/workflows/main.yml)
 
 ## Install
 
