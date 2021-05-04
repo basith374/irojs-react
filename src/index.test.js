@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { ColorPicker } from '.'
 
-describe('ExampleComponent', () => {
+describe('ColorPicker', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(ColorPicker).toBeTruthy()
   })
 })
