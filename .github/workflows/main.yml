@@ -17,14 +17,16 @@ jobs:
           registry-url: https://registry.npmjs.org/
           
       - name: Publish
-        run: yarn
+        run: |
+          yarn
           yarn test
           yarn publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.npm_token }}
 
       - name: Build
-        run: cd example
+        run: |
+          cd example
           yarn build
       - name: Deploy
         uses: jakejarvis/s3-sync-action@master
