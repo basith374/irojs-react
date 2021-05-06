@@ -19,6 +19,7 @@ jobs:
       - name: Build
         run: |
           cd example
+          yarn
           yarn build
       - name: Deploy
         uses: jakejarvis/s3-sync-action@master
