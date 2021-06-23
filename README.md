@@ -23,7 +23,7 @@ import ColorPicker from 'irojs-react'
 
 class Example extends Component {
   render() {
-    return <ColorPicker />
+    return <ColorPicker setColor={(color) => console.log(color)} />
   }
 }
 ```
