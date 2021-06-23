@@ -9,7 +9,9 @@ export const ColorPicker = ({ setColor, color }) => {
     const cp = (colorPicker.current = new iro.ColorPicker(ref.current, {
       color
     }))
-    cp.on('color:change', (color) => setColor(color.hexString))
+    cp.on('color:change', (color) => {
+      if (setColor) setColor(color.hexString)
+    })
   }, [])
   return <div className={styles.container} ref={ref} />
 }
