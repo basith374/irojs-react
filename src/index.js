@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import styles from './styles.module.css'
 import iro from '@jaames/iro'
 
-export const ColorPicker = ({ setColor, color }) => {
+export default function ColorPicker({ setColor, color }) {
   const ref = useRef()
   const colorPicker = useRef()
   useEffect(() => {

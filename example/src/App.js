@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { ColorPicker } from 'package'
+import ColorPicker from 'package'
 import 'package/dist/index.css'
 
 const App = () => {
