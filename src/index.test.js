@@ -1,4 +1,4 @@
-import { ColorPicker } from '.'
+import ColorPicker from '.'
 
 describe('ColorPicker', () => {
   it('is truthy', () => {
